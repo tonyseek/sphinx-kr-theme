@@ -9,7 +9,7 @@
         import sphinx_kr_theme
 
         html_theme = 'kr'
-        html_theme_path = [sphinx_kr_theme.get_html_theme_path(html_theme)]
+        html_theme_path = [sphinx_kr_theme.get_html_theme_path()]
 """
 
 import os
@@ -18,18 +18,14 @@ import os
 __version__ = '0.1.0.dev'
 
 
-def get_html_theme_path(name):
+def get_html_theme_path():
     """Gets the html theme's path.
 
-    :param name: the theme's name, which should be 'kr' or 'kr_small'.
     :returns: the absolute path of theme location.
     """
-    root_dir = os.path.abspath(os.path.dirname(__file__))
-    if name not in ('kr', 'kr_small'):
-        raise ValueError('the theme name should be "kr" or "kr_small"')
-    return os.path.join(root_dir, name)
+    return os.path.abspath(os.path.dirname(__file__))
 
 
-def get_path(name):
+def get_path():
     # the alias of ``get_html_theme_path``
-    return get_html_theme_path(name)
+    return get_html_theme_path()

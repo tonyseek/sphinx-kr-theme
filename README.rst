@@ -26,7 +26,7 @@ In your ``conf.py``:
     import sphinx_kr_theme
 
     html_theme = 'kr'
-    html_theme_path = [sphinx_kr_theme.get_html_theme_path(html_theme)]
+    html_theme_path = [sphinx_kr_theme.get_html_theme_path()]
 
 
 .. _krTheme: https://github.com/kennethreitz/kr-sphinx-themes
