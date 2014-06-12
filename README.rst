@@ -1,3 +1,5 @@
+|Build Status| |PyPI Version| |PyPI Downloads| |Wheel Status|
+
 krTheme Sphinx Style
 ====================
 
@@ -29,3 +31,16 @@ In your ``conf.py``:
 
 .. _krTheme: https://github.com/kennethreitz/kr-sphinx-themes
 .. _ReadTheDocs: https://readthedocs.org
+
+.. |Build Status| image:: https://travis-ci.org/tonyseek/sphinx-kr-theme.svg?branch=master,develop
+   :target: https://travis-ci.org/tonyseek/sphinx-kr-theme
+   :alt: Build Status
+.. |Wheel Status| image:: https://pypip.in/wheel/sphinx-kr-theme/badge.svg
+   :target: https://pypi.python.org/pypi/sphinx-kr-theme
+   :alt: Wheel Status
+.. |PyPI Version| image:: https://img.shields.io/pypi/v/sphinx-kr-theme.svg
+   :target: https://pypi.python.org/pypi/sphinx-kr-theme
+   :alt: PyPI Version
+.. |PyPI Downloads| image:: https://img.shields.io/pypi/dm/sphinx-kr-theme.svg
+   :target: https://pypi.python.org/pypi/sphinx-kr-theme
+   :alt: Downloads
