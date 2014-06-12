@@ -11,7 +11,7 @@ Installation
 
 .. code-block:: sh
 
-    pip install https://github.com/tonyseek/sphinx-kr-theme/archive/develop.zip
+    pip install sphinx-kr-theme
 
 Of course the general usage is putting that into your ``docs/requirements.txt``
 then it will be found and installed by the build system such as ReadTheDocs_.
