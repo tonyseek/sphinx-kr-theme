@@ -15,7 +15,7 @@
 import os
 
 
-__version__ = '0.1.0'
+__version__ = '0.1.0.dev'
 
 
 def get_html_theme_path(name):
@@ -24,10 +24,10 @@ def get_html_theme_path(name):
     :param name: the theme's name, which should be 'kr' or 'kr_small'.
     :returns: the absolute path of theme location.
     """
-    root_dir = os.path.abspath(os.path.dirname(os.path.dirname(__file__)))
+    root_dir = os.path.abspath(os.path.dirname(__file__))
     if name not in ('kr', 'kr_small'):
         raise ValueError('the theme name should be "kr" or "kr_small"')
-    return os.path.join(root_dir, 'kr')
+    return os.path.join(root_dir, name)
 
 
 def get_path(name):
