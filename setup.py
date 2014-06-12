@@ -1,9 +1,16 @@
 from setuptools import setup
 
 
+def get_long_description():
+    with open('README.rst') as descfile:
+        next(descfile)  # skip the badage icons
+        return ''.join(descfile)
+
+
 setup(
     name='sphinx-kr-theme',
     description='The third-part package of kennethreitz/kr-sphinx-themes.',
+    long_description=get_long_description(),
     version='0.1.0.dev',
     maintainer='Jiangge Zhang',
     maintainer_email='tonyseek@gmail.com',
