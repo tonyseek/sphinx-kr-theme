@@ -1,0 +1,7 @@
+include *.txt
+include README.rst
+include LICENSE
+recursive-include sphinx_kr_theme *.conf
+recursive-include sphinx_kr_theme *.css
+recursive-include sphinx_kr_theme *.css_t
+recursive-include sphinx_kr_theme *.html
