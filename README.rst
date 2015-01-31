@@ -25,8 +25,14 @@ In your ``conf.py``:
 
     import sphinx_kr_theme
 
-    html_theme = 'kr'
+    html_theme = 'kr'  # or 'kr_basic'
     html_theme_path = [sphinx_kr_theme.get_html_theme_path()]
+
+In Sphinx >= 1.2, you only need to set the theme name:
+
+.. code-block:: python
+
+    html_theme = 'kr_basic'
 
 
 .. _krTheme: https://github.com/kennethreitz/kr-sphinx-themes

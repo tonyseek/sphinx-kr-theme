@@ -40,4 +40,9 @@ setup(
         'Topic :: Documentation',
         'Topic :: Software Development :: Documentation',
     ],
+    entry_points={
+        'sphinx_themes': [
+            'path = sphinx_kr_theme:get_path',
+        ],
+    },
 )
