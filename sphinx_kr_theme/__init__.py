@@ -12,7 +12,7 @@
         html_theme_path = [sphinx_kr_theme.get_html_theme_path()]
 """
 
-import os
+import pkg_resources
 
 
 __version__ = '0.1.0'
@@ -23,7 +23,7 @@ def get_html_theme_path():
 
     :returns: the absolute path of theme location.
     """
-    return os.path.abspath(os.path.dirname(__file__))
+    return pkg_resources.resource_filename(__package__, '')
 
 
 def get_path():
