@@ -11,7 +11,7 @@ setup(
     name='sphinx-kr-theme',
     description='The third-part package of kennethreitz/kr-sphinx-themes.',
     long_description=get_long_description(),
-    version='0.1.0',
+    version='0.2.0',
     maintainer='Jiangge Zhang',
     maintainer_email='tonyseek@gmail.com',
     url='https://github.com/tonyseek/sphinx-kr-theme',
