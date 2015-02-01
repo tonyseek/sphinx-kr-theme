@@ -11,7 +11,7 @@ setup(
     name='sphinx-kr-theme',
     description='The third-part package of kennethreitz/kr-sphinx-themes.',
     long_description=get_long_description(),
-    version='0.1.0',
+    version='0.2.0',
     maintainer='Jiangge Zhang',
     maintainer_email='tonyseek@gmail.com',
     url='https://github.com/tonyseek/sphinx-kr-theme',
@@ -31,13 +31,21 @@ setup(
     },
     include_package_data=True,
     classifiers=[
-        'Development Status :: 3 - Alpha',
+        'Development Status :: 4 - Beta',
         'License :: OSI Approved :: BSD License',
         'Intended Audience :: Developers',
+        'Programming Language :: Python :: 2',
         'Programming Language :: Python :: 2.7',
         'Programming Language :: Python :: 3',
+        'Programming Language :: Python :: 3.3',
+        'Programming Language :: Python :: 3.4',
         'Operating System :: OS Independent',
         'Topic :: Documentation',
         'Topic :: Software Development :: Documentation',
     ],
+    entry_points={
+        'sphinx_themes': [
+            'path = sphinx_kr_theme:get_path',
+        ],
+    },
 )
