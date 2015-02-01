@@ -31,7 +31,7 @@ setup(
     },
     include_package_data=True,
     classifiers=[
-        'Development Status :: 3 - Alpha',
+        'Development Status :: 4 - Beta',
         'License :: OSI Approved :: BSD License',
         'Intended Audience :: Developers',
         'Programming Language :: Python :: 2.7',
