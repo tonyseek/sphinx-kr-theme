@@ -110,6 +110,7 @@ div.indexwrapper h1 {
     width: {{ theme_index_logo_width }};
     {% if theme_index_logo_height != 'auto' and  theme_index_logo_width != 'auto' %}
     background-size: {{ theme_index_logo_width }} {{ theme_index_logo_height }};
+    margin: auto;
     {% endif %}
 }
 {% endif %}
