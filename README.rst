@@ -3,7 +3,7 @@
 krTheme Sphinx Style
 ====================
 
-This is the third-part package of Kenneth Reitz's krTheme_. You will not have
+This is the third-party package of Kenneth Reitz's krTheme_. You will not have
 to copy the theme files into VCS or register it as submodule anymore.
 
 Installation
