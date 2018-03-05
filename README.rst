@@ -79,7 +79,7 @@ and uploaded it to PyPI.
 .. |Build Status| image:: https://travis-ci.org/tonyseek/sphinx-kr-theme.svg?branch=master,develop
    :target: https://travis-ci.org/tonyseek/sphinx-kr-theme
    :alt: Build Status
-.. |Wheel Status| image:: https://pypip.in/wheel/sphinx-kr-theme/badge.svg?style=flat
+.. |Wheel Status| image:: https://img.shields.io/pypi/wheel/sphinx-kr-theme.svg?style=flat
    :target: https://pypi.python.org/pypi/sphinx-kr-theme
    :alt: Wheel Status
 .. |PyPI Version| image:: https://img.shields.io/pypi/v/sphinx-kr-theme.svg?style=flat
