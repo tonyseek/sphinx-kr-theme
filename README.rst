@@ -1,4 +1,4 @@
-|Build Status| |PyPI Version| |PyPI Downloads| |Wheel Status|
+|Build Status| |PyPI Version| |Wheel Status|
 
 krTheme Sphinx Style
 ====================
@@ -85,6 +85,3 @@ and uploaded it to PyPI.
 .. |PyPI Version| image:: https://img.shields.io/pypi/v/sphinx-kr-theme.svg?style=flat
    :target: https://pypi.python.org/pypi/sphinx-kr-theme
    :alt: PyPI Version
-.. |PyPI Downloads| image:: https://img.shields.io/pypi/dm/sphinx-kr-theme.svg?style=flat
-   :target: https://pypi.python.org/pypi/sphinx-kr-theme
-   :alt: Downloads
